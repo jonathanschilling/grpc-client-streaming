@@ -3,12 +3,7 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	
-	<parent>
-		<groupId>de.labathome</groupId>
-		<artifactId>de-labathome-parent</artifactId>
-		<version>1.0.0</version>
-	</parent>
-	
+		
 	<groupId>de.labathome</groupId>
 	<artifactId>grpc-client-streaming</artifactId>
 	<version>1.0.0</version>
@@ -17,17 +12,7 @@
 	<description>Client-Streaming example for gRPC</description>
 	
 	
-	<url>${jonathanschilling.git.url}${project.name}</url>
-	<scm>
-		<connection>${jonathanschilling.git.root}${project.name}.git</connection>
-		<developerConnection>${jonathanschilling.git.root}${project.name}.git</developerConnection>
-		<url>${jonathanschilling.git.url}${project.name}/tree/master</url>
-	</scm>
-	<issueManagement>
-		<url>${jonathanschilling.git.url}${project.name}/issues</url>
-		<system>GitLab Issues</system>
-	</issueManagement>
-	
+		
 	<dependencies>
         <dependency>
             <groupId>io.grpc</groupId>
